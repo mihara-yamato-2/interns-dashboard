@@ -1,0 +1,5 @@
+{
+  "name": "Work Performance Dashboard",
+  "description": "A dashboard to input and visualize bi-weekly work performance, including working hours, self-assessment, and key initiatives, inspired by user-provided references.",
+  "requestFramePermissions": []
+}
