@@ -65,7 +65,7 @@ const InputPanel: React.FC<InputPanelProps> = (props) => {
     return (
         <div className="space-y-6 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pr-4">
             {/* --- Qualitative Section --- */}
-            <h3 className="text-xl font-bold text-slate-600 border-b-2 border-blue-300 pb-2">定性評価 入力</h3>
+            <h3 className="text-xl font-bold text-slate-600 border-b-2 border-blue-300 pb-2">主観評価 入力</h3>
             
             <InitiativesReportSection data={initiativesData} setData={setInitiativesData} />
 
@@ -122,7 +122,7 @@ const InputPanel: React.FC<InputPanelProps> = (props) => {
             </Card>
 
             {/* --- Quantitative Section --- */}
-            <h3 className="text-xl font-bold text-slate-600 border-b-2 border-green-300 pb-2 mt-8">定量評価 入力</h3>
+            <h3 className="text-xl font-bold text-slate-600 border-b-2 border-green-300 pb-2 mt-8">客観評価 入力</h3>
 
             <Card>
                 <SectionHeader icon={<ClockIcon />} title="稼働時間" />

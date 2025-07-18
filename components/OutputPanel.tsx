@@ -43,7 +43,7 @@ const OutputPanel = React.forwardRef<HTMLDivElement, OutputPanelProps>((props, r
                 {/* 1. Qualitative Section */}
                 <section>
                     <h2 className="text-2xl md:text-3xl font-bold text-slate-800 mb-8 text-center border-b-2 border-blue-500 pb-3">
-                        定性評価
+                        主観評価
                     </h2>
                     <div className="space-y-8">
                         <InitiativesReportSection 
@@ -61,7 +61,7 @@ const OutputPanel = React.forwardRef<HTMLDivElement, OutputPanelProps>((props, r
                 {/* 2. Quantitative Section */}
                 <section>
                      <h2 className="text-2xl md:text-3xl font-bold text-slate-800 mb-8 text-center border-b-2 border-green-500 pb-3">
-                        定量評価
+                        客観評価
                     </h2>
                     <div className="space-y-8">
                         <WorkingHoursSection 
